@@ -27,4 +27,4 @@ jobs:
         run: npm ci
 
       - name: Expo Doctor
-        run: npx expo-doctor
+        run: npx expo-doctor --invalid
